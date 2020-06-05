@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Registration Page</title>
+<style type="text/css">
+body{background-image:url("bloodbank.jpg"); background-repeat:no-repeat;  background-attachment:scroll; background-position : calc(100% + 120px) 0; margin-left:10%; margin-right:10%;}
+a:link{color:#000000; text-decoration:none;}
+a:visited{color:#000000; text-decoration:none;}
+a:hover{color:#0000ff; text-decoration:underline;}
+footer {color:black;}
+</style>
+<script type="text/javascript">
+function sub()
+{
+ alert("Thank you! You are registered as a donor.");
+ window.location.href= "file:///C:/Users/Shweta/Desktop/Blood%20Bank%20System/index.html";
+}
+</script>
+</head>
+<body>
+<br>
+<header><h1><b><center> <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Camps Near You &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Contact Us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FAQ's </center></b></h1>
+<br><br><br>
+<form>
+<font size="4"><b>
+Name: <input type="text" name="name"><br><br>
+<br>Gender: <select name="dropdown"><option value="M">Male</option><option value="F">Female</option></select><br><br>
+<br>Age: <input type="text" name="age"><br><br>
+<br>Phone number: <input type="text" name="phnumber"><br><br>
+<br>Email id: <input type="text" name="email"><br><br>
+<br>Blood Group: <select name="dropdown">
+<option value="A">A+</option>
+<option value="A">A-</option>
+<option value="B">B+</option>
+<option value="B">B-</option>
+<option value="AB">AB+</option>
+<option value="AB">AB-</option>
+<option value="O">O+</option>
+<option value="O">O-</option>
+</select>
+</b><br><br><br>
+<b>Upload Image Of Blood Group Card</b> &nbsp;<input type="file" name="fileupload" accept="image/*" />
+<br><br><br>
+<input type="submit" onClick="sub();" name="submit" value="Submit" /></font>
+<br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer><font size="5">Copyright &copy; Shweta Kapileshwar</footer>
+</body>
+</html>
